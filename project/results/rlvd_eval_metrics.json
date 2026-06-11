@@ -1,0 +1,15 @@
+{
+  "dataset": "RLVD",
+  "phase": "baseline_ood",
+  "n_samples": 200,
+  "n_violence": 100,
+  "n_non_violence": 100,
+  "threshold": 0.5,
+  "accuracy": 0.5,
+  "f1": 0.6667,
+  "precision": 0.5,
+  "recall": 1.0,
+  "roc_auc": 0.4878,
+  "binary_mapping": "score = 1 - P(Normal)",
+  "normal_class_index": 7
+}

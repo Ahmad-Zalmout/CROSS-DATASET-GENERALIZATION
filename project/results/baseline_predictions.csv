@@ -1,0 +1,5 @@
+video,gt_label,gt_name,violence_score,prediction,pred_name,correct
+V_1.mp4,1,Violence,0.34064987,0,NonViolence,0
+V_10.mp4,1,Violence,0.35764426,0,NonViolence,0
+NV_1.mp4,0,NonViolence,0.32570377,0,NonViolence,1
+NV_10.mp4,0,NonViolence,0.33716473,0,NonViolence,1

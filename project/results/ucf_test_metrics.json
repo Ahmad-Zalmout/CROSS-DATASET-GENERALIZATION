@@ -1,0 +1,16 @@
+{
+  "dataset": "UCF-Crime",
+  "phase": "baseline",
+  "n_samples": 190,
+  "n_violence": 140,
+  "n_non_violence": 50,
+  "threshold": 0.5,
+  "accuracy": 0.7368,
+  "f1": 0.8485,
+  "precision": 0.7368,
+  "recall": 1.0,
+  "roc_auc": 0.2197,
+  "binary_mapping": "score = 1 - P(Normal)",
+  "normal_class_index": 7,
+  "normal_class_name": "Normal"
+}

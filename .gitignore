@@ -1,0 +1,76 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.env
+.venv/
+
+# Claude Code session data
+.claude/
+project/.claude/
+
+# Working notes (internal only)
+project/docs/notes.md
+
+# Documentation chapters (not ready for publication)
+01_abstract.md
+02_introduction.md
+03_related_work.md
+04_datasets.md
+05_model_architecture.md
+06_methodology.md
+07_experiments_results.md
+08_analysis_discussion.md
+09_limitations.md
+10_conclusion.md
+presentation_slides_description.md
+
+# ── Raw datasets (too large for git) ──────────────────────────────────────────
+
+# UCF-Crime video directories
+project/dataset/UCF-Crime/Anomaly-Videos-Part-1/
+project/dataset/UCF-Crime/Anomaly-Videos-Part_2/
+project/dataset/UCF-Crime/Anomaly-Videos-Part-3/
+project/dataset/UCF-Crime/Anomaly-Videos-Part-4/
+project/dataset/UCF-Crime/All_Data/
+project/dataset/UCF-Crime/Normal_Videos_for_Event_Recognition/
+project/dataset/UCF-Crime/FightingA_Part1/
+project/dataset/UCF-Crime/FightingA_Part11/
+project/dataset/UCF-Crime/FightingA_Part2/
+project/dataset/UCF-Crime/FightingA_Part3/
+project/dataset/UCF-Crime/Burglary/
+project/dataset/UCF-Crime/Explosion/
+project/dataset/UCF-Crime/Shooting/
+project/dataset/UCF-Crime/Testing_Normal_Videos_Anomaly/
+
+# UCF-Crime pre-extracted feature directories (multi-GB)
+project/dataset/UCF-Crime/Per_Frame_Features2D-Inception/
+project/dataset/UCF-Crime/Extracted C3D Features/
+project/dataset/UCF-Crime/Augmented_2D_Features/
+project/dataset/UCF-Crime/Extracted_Features-Inception/
+project/dataset/UCF-Crime/Training-Normal-Videos-Part-1-txt-Inception/
+project/dataset/UCF-Crime/Training-Normal-Videos-Part-1-txt-Inception-1D/
+project/dataset/UCF-Crime/UCF_Crimes-Train-Test-Split/
+
+# RLVD raw videos
+project/dataset/Real Life Violence Dataset/
+
+# Safety net: catch stray video files anywhere
+*.mp4
+*.avi
+*.mkv
+*.mov
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
